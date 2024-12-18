@@ -1,4 +1,6 @@
 from flask import Flask, request, render_template_string
+from werkzeug.urls import url_quote
+
 import sqlite3
 
 app = Flask(__name__)
