@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template_string
-from werkzeug.urls import url_quote
+from werkzeug.urls import unquote
+
 
 import sqlite3
 
