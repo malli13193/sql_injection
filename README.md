@@ -3,6 +3,8 @@ SQL Injection can allow attackers to view, manipulate, or delete data from your 
 The log messages you're seeing are from your Flask application running in development mode, and they provide useful information about the server's behavior. Let me break down each line for you:
 
 * Running on http://127.0.0.1:5000
+* ![image](https://github.com/user-attachments/assets/ec701f02-a4cc-43d2-9336-dd54896f9144)
+
 
 Your Flask app is running locally on your machine at http://127.0.0.1:5000. This means you can access the app through a web browser by visiting http://127.0.0.1:5000.
 Press CTRL+C to quit
