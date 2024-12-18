@@ -64,7 +64,11 @@ def search():
             <p>No users found.</p>
         {% endif %}
         <a href="/">Go back</a>
-    """, users=users)
+    """)
+
+# This is for Vercel to work properly with the serverless function
+def handler(environ, start_response):
+    return app(environ, start_response)
 
 if __name__ == '__main__':
     app.run(debug=True)
